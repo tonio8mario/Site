@@ -1,0 +1,103 @@
+body{
+    background-color: #ffe8ad
+}
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header
+{
+    width: 100%;
+    height: 150px;
+    background-color: #FFDB7E;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+#flex-div{
+    display: flex;
+}
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    width: 326px;
+    margin-left: 35px;
+    position: relative;
+}
+#logoTxt
+{
+    position: absolute;
+    left: 32px;
+    top: 13px;
+    color:white;
+    font-size: 52.16px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 3.2px;
+}
+#vermelho
+{
+    width: 81.5px;
+    height: 81.5px;
+    background-color: #960200;
+}
+#rosa
+{
+    width: 81.5px;
+    height: 81.5px;
+    background-color: #E26350;
+}
+#verde
+{
+    width: 81.5px;
+    height: 81.5px;
+    background-color: #606C38;
+}
+#musgo
+{
+    width: 81.5px;
+    height: 81.5px;
+    background-color: #283618;
+}
+
+#itemsCabecalho
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding-top: 30px;
+    font-family: 'Josefin Slab';
+    font-weight: 550;
+    font-size: 19.87px;
+    color: black;
+}
+
+
+.cabecalho a
+{
+    color: #000000;
+}
+
+.texto
+{
+    font-family: 'Josefin Slab';
+    font-size: 32px;
+    font-weight: 555;
+    width: 1192px;
+    padding-left: 98px;
+    padding-top: 50px;
+    margin-right: 55px;
+}
+
+.negrito
+{
+    font-weight: 700;
+}
+main
+{
+    display: flex;
+    margin-top: 40px;
+}
